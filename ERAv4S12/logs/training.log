@@ -1,0 +1,144 @@
+using device: cuda
+loaded 338025 tokens
+1 epoch = 330 batches
+step     0 | loss: 10.972174 | lr: 6.00e-07
+step    50 | loss: 8.288091 | lr: 3.06e-05
+step   100 | loss: 6.635241 | lr: 6.06e-05
+step   150 | loss: 5.824837 | lr: 9.06e-05
+step   200 | loss: 5.482788 | lr: 1.21e-04
+step   250 | loss: 5.265896 | lr: 1.51e-04
+step   300 | loss: 5.158043 | lr: 1.81e-04
+step   350 | loss: 4.483272 | lr: 2.11e-04
+step   400 | loss: 3.955303 | lr: 2.41e-04
+step   450 | loss: 4.284541 | lr: 2.71e-04
+step   500 | loss: 3.639950 | lr: 3.01e-04
+step   550 | loss: 4.191215 | lr: 3.31e-04
+step   600 | loss: 3.790927 | lr: 3.61e-04
+step   650 | loss: 3.433627 | lr: 3.91e-04
+step   700 | loss: 3.211645 | lr: 4.21e-04
+step   750 | loss: 3.100039 | lr: 4.51e-04
+step   800 | loss: 3.396965 | lr: 4.81e-04
+step   850 | loss: 3.200209 | lr: 5.11e-04
+step   900 | loss: 2.642825 | lr: 5.41e-04
+step   950 | loss: 2.456589 | lr: 5.71e-04
+step  1000 | loss: 2.557349 | lr: 6.00e-04
+step  1050 | loss: 2.634692 | lr: 6.00e-04
+step  1100 | loss: 2.201802 | lr: 6.00e-04
+step  1150 | loss: 1.623584 | lr: 6.00e-04
+step  1200 | loss: 1.633972 | lr: 6.00e-04
+step  1250 | loss: 1.495467 | lr: 6.00e-04
+step  1300 | loss: 1.514711 | lr: 6.00e-04
+step  1350 | loss: 1.043494 | lr: 6.00e-04
+step  1400 | loss: 1.172354 | lr: 6.00e-04
+step  1450 | loss: 0.796930 | lr: 6.00e-04
+step  1500 | loss: 0.852021 | lr: 6.00e-04
+step  1550 | loss: 0.597007 | lr: 6.00e-04
+step  1600 | loss: 0.590056 | lr: 6.00e-04
+step  1650 | loss: 0.632478 | lr: 6.00e-04
+step  1700 | loss: 0.326799 | lr: 6.00e-04
+step  1750 | loss: 0.365723 | lr: 6.00e-04
+step  1800 | loss: 0.310584 | lr: 6.00e-04
+step  1850 | loss: 0.296524 | lr: 6.00e-04
+step  1900 | loss: 0.294781 | lr: 6.00e-04
+step  1950 | loss: 0.290859 | lr: 6.00e-04
+step  2000 | loss: 0.241131 | lr: 6.00e-04
+step  2050 | loss: 0.252659 | lr: 6.00e-04
+step  2100 | loss: 0.222209 | lr: 6.00e-04
+step  2150 | loss: 0.205375 | lr: 6.00e-04
+step  2200 | loss: 0.242598 | lr: 6.00e-04
+step  2250 | loss: 0.199048 | lr: 6.00e-04
+step  2300 | loss: 0.200101 | lr: 6.00e-04
+step  2350 | loss: 0.207331 | lr: 6.00e-04
+step  2400 | loss: 0.185837 | lr: 6.00e-04
+step  2450 | loss: 0.171859 | lr: 6.00e-04
+step  2500 | loss: 0.177857 | lr: 6.00e-04
+step  2550 | loss: 0.143138 | lr: 6.00e-04
+step  2600 | loss: 0.167301 | lr: 6.00e-04
+step  2650 | loss: 0.173609 | lr: 6.00e-04
+step  2700 | loss: 0.173656 | lr: 6.00e-04
+step  2750 | loss: 0.155061 | lr: 6.00e-04
+step  2800 | loss: 0.179392 | lr: 6.00e-04
+step  2850 | loss: 0.127104 | lr: 6.00e-04
+step  2900 | loss: 0.148127 | lr: 6.00e-04
+step  2950 | loss: 0.152990 | lr: 6.00e-04
+step  3000 | loss: 0.146374 | lr: 6.00e-04
+step  3050 | loss: 0.138948 | lr: 6.00e-04
+step  3100 | loss: 0.137794 | lr: 6.00e-04
+step  3150 | loss: 0.155247 | lr: 6.00e-04
+step  3200 | loss: 0.130345 | lr: 6.00e-04
+step  3250 | loss: 0.143885 | lr: 6.00e-04
+step  3300 | loss: 0.146641 | lr: 6.00e-04
+step  3350 | loss: 0.116431 | lr: 6.00e-04
+step  3400 | loss: 0.145148 | lr: 6.00e-04
+step  3450 | loss: 0.109510 | lr: 6.00e-04
+step  3500 | loss: 0.120601 | lr: 6.00e-04
+step  3550 | loss: 0.117872 | lr: 6.00e-04
+step  3600 | loss: 0.120572 | lr: 6.00e-04
+step  3650 | loss: 0.108940 | lr: 6.00e-04
+step  3700 | loss: 0.114175 | lr: 6.00e-04
+step  3750 | loss: 0.118673 | lr: 6.00e-04
+step  3800 | loss: 0.108108 | lr: 6.00e-04
+step  3850 | loss: 0.137382 | lr: 6.00e-04
+step  3900 | loss: 0.129900 | lr: 6.00e-04
+step  3950 | loss: 0.107007 | lr: 6.00e-04
+step  4000 | loss: 0.115533 | lr: 6.00e-04
+step  4050 | loss: 0.116073 | lr: 6.00e-04
+step  4100 | loss: 0.105176 | lr: 6.00e-04
+
+Target achieved at step 4109!
+Final loss: 0.08488673716783524
+
+
+Device: cuda
+Loaded checkpoint with model_state_dict
+Training loss:0.08488673716783524
+
+----- SAMPLE OUTPUT 1 -----
+Once upon a time calm.
+That Henry yields thus said,
+And thus ne'er burn as light in London send his hands,
+Were buckle beautled only dislike:
+With many misforce's course, calm enter, with a titportion'd thy father!
+
+ROMEO:
+Good time, mad!
+
+ROMEO:
+I will not believe a buried man! yet, nurseful brother's house, as Oumerle, madars, madre we be bold in such woe
+That sorrow that his high disgrace and measure of philosophy.
+
+ROMEO:
+What says I am told to fagns best Paris.
+An old blocks's groarth, hath Romeo's short sudden with Saint George-day's
+
+----- SAMPLE OUTPUT 2 -----
+The meaning of life is accounted pay Lancaster with red bones
+person straight; at Lancaster; where they have?
+
+HENRY BOLINGBROKE:
+Go on that we blow strong; to bear me leave.
+
+HENRY PERCY:
+My lord, my Lord with English choice, Cbot!'
+ever till me to rise, that we love in vain;
+The town since this vile strife, as it have ta'encas andHarry,
+Poor queen is true as many free Troy?
+
+HENRY PERCY:
+Go, who areever till what true haplylling much sound loose presence 'tis so good friend, when any time as much alone. Go through the lateste' high
+
+----- SAMPLE OUTPUT 3 -----
+In the future, in banisp on his throne,
+Our householdcon staints on his bosom,
+As ashes generally an unsturhes to his rest.
+
+DUKE OF AUMERLE:
+Have denied the while of Oxford, and be ill-bret shame,
+Before not my breath; no less curt lies to temper tears.
+
+DUCHESS OF YORK:
+Yet that I do yet to get us home,
+Before thy to triumph that I am in peacety alone:
+Thy Romeo! then call him hard salt deed.
+
+Hence o'er flamed stain him; I do spend my word, I do that ere you so will accuse my wife, I had as
