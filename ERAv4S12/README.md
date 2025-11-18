@@ -1,0 +1,58 @@
+# Shakespeare GPT Model
+
+A decoder-only transformer model trained on Shakespeare's works, achieving a training loss below 0.09.
+
+## Model Architecture
+
+- **Model Size**: 124M parameters (GPT-2 small configuration)
+- **Layers**: 12 transformer blocks
+- **Attention Heads**: 12
+- **Embedding Dimension**: 768
+- **Context Length**: 1024 tokens
+- **Vocabulary**: GPT-2 tokenizer (50,257 tokens)
+
+## Training Details
+
+- **Dataset**: Shakespeare text corpus (`input.txt`)
+- **Training Steps**: 4,109 steps (early stopping when loss < 0.09)
+- **Final Loss**: **0.0849**
+- **Batch Size**: 16
+- **Sequence Length**: 64
+- **Gradient Accumulation**: 4 steps
+- **Learning Rate**: Cosine schedule (max: 6e-4, warmup: 1000 steps)
+- **Optimizer**: AdamW (β₁=0.91, β₂=0.95, weight_decay=0.1)
+- **Gradient Clipping**: 1.0
+
+## Results
+
+The model successfully achieved the target loss of **< 0.099999** at step 4,109 with a final loss of **0.0849**.
+
+Sample outputs demonstrate the model's ability to generate Shakespearean-style text with proper character names, dialogue structure, and period-appropriate language.
+
+## Files
+
+- `train.py` - Training script
+- `S12.ipynb` - Jupyter notebook with training code
+- `input.txt` - Shakespeare training corpus
+- `model.pt` - Trained model weights
+- `colab.logs` - Complete training logs and sample outputs
+
+## Usage
+
+### Training
+
+```bash
+python train.py
+```
+
+The model will train until loss < 0.09 and save weights to `model.pt`.
+
+### Inference
+
+See `infer.ipynb` for inference examples using the trained model.
+
+## Training Logs
+
+Complete training logs with step-by-step loss values and sample outputs are available in `colab.log`.
+
+
