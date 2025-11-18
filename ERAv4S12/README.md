@@ -53,6 +53,7 @@ See `infer.ipynb` for inference examples using the trained model.
 
 ## Training Logs
 
-Complete training logs with step-by-step loss values and sample outputs are available in `colab.log`.
+Complete training logs with step-by-step loss values and sample outputs are available in `logs` folder.
+
 
 
